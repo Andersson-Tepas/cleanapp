@@ -9,7 +9,6 @@ import com.esfe.cleanapp.domain.port.out.SqlHealthPort;
  */
 public class CheckDbHealthService implements CheckDbHealthUseCase {
     private final SqlHealthPort sql;
-
     public CheckDbHealthService(SqlHealthPort sql) {
         this.sql = sql;
     }
