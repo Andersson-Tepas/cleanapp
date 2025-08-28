@@ -1,0 +1,73 @@
+# CleanApp
+
+## 📌 Descripción
+**CleanApp** es una aplicación desarrollada en **Java con Spring Boot** que sirve como base para construir soluciones web modernas, seguras y escalables.
+El proyecto está estructurado siguiendo las buenas prácticas de **Spring Boot** e integra dependencias mediante **Maven**, lo que facilita la gestión del ciclo de vida de la aplicación.
+
+Su objetivo es proporcionar una arquitectura inicial que pueda extenderse para distintos propósitos, como:
+- Aplicaciones de gestión.
+- Servicios RESTful.
+- Integraciones con bases de datos.
+- Backend para aplicaciones móviles o web.
+
+---
+
+## 🛠️ Tecnologías utilizadas
+- **Java 17+**
+- **Spring Boot** (Framework principal)
+- **Maven** (Gestor de dependencias y construcción)
+- **Git** (Control de versiones)
+- **IntelliJ IDEA / Eclipse** (IDE recomendado)
+
+---
+
+## 📂 Estructura del proyecto
+- `pom.xml` → Archivo de configuración de Maven y dependencias.
+- `src/main/java` → Código fuente principal (controladores, servicios, modelos).
+- `src/main/resources` → Archivos de configuración y recursos (application.properties, plantillas).
+- `src/test/java` → Pruebas unitarias.
+- `HELP.md` → Documentación inicial generada por Spring Initializr.
+
+---
+
+## 🚀 Instalación y ejecución
+
+### Requisitos previos
+- Tener instalado **Java 17+**
+- Tener instalado **Maven** o usar el **Maven Wrapper** incluido (`mvnw`).
+
+### Pasos para ejecutar
+1. Clonar el repositorio:
+   ```bash
+   git clone <url-del-repo>
+   cd cleanapp
+   ```
+2. Compilar el proyecto:
+   ```bash
+   ./mvnw clean install
+   ```
+3. Ejecutar la aplicación:
+   ```bash
+   ./mvnw spring-boot:run
+   ```
+4. La aplicación se levantará en:
+   ```
+   http://localhost:8080
+   ```
+
+---
+
+## 📖 Próximos pasos / Extensiones
+- Conectar con una base de datos relacional (MySQL, PostgreSQL, etc.).
+- Implementar APIs REST.
+- Agregar capa de seguridad con **Spring Security**.
+- Desplegar en la nube (Heroku, AWS, Azure).
+
+---
+
+## 👨‍💻 Contribución
+1. Haz un fork del repositorio.
+2. Crea una rama con tu funcionalidad (`git checkout -b feature-nueva`).
+3. Realiza los cambios y haz commit (`git commit -m "Agrega nueva funcionalidad"`).
+4. Sube los cambios a tu rama (`git push origin feature-nueva`).
+5. Crea un Pull Request.
